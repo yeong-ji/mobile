@@ -270,25 +270,25 @@
         <p>모바일 기기에서 접속해주세요!</p>
     </div>
     <script>
-        // PC, MOBILE 구별
-        function deviceCheck() {
-            // 디바이스 종류 설정
-            var pcDevice = "win16|win32|win64|mac|macintel";
-
-            // 접속한 디바이스 환경
-            if ( navigator.platform ) {
-                if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-                    document.querySelector('html').classList.remove("not_scroll");
-                    document.querySelector('body').classList.remove("not_scroll");
-                    //console.log('MOBILE');
-                } else {
-                    document.querySelector('html').classList.add("not_scroll");
-                    document.querySelector('body').classList.add("not_scroll");
-                    //console.log('pc');
-                }
-            }
-        }
-        deviceCheck();
+//        // PC, MOBILE 구별
+//        function deviceCheck() {
+//            // 디바이스 종류 설정
+//            var pcDevice = "win16|win32|win64|mac|macintel";
+//
+//            // 접속한 디바이스 환경
+//            if ( navigator.platform ) {
+//                if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+//                    document.querySelector('html').classList.remove("not_scroll");
+//                    document.querySelector('body').classList.remove("not_scroll");
+//                    //console.log('MOBILE');
+//                } else {
+//                    document.querySelector('html').classList.add("not_scroll");
+//                    document.querySelector('body').classList.add("not_scroll");
+//                    //console.log('pc');
+//                }
+//            }
+//        }
+//        deviceCheck();
     </script>
 </body>
 </html>
